@@ -1,0 +1,334 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 0px;
+    background-color: transparent;
+}
+.nav{
+    width: 100%;   
+    display: block;
+    flex-direction: row;
+    background-color: rgb(100, 181, 246);     
+    text-align: right; 
+    padding: 35px; 
+    position: fixed;           
+}
+nav {
+    display: block;
+    flex-direction: row;
+    margin: 0px 18% 0px 20%;  
+    text-align: right;   
+}
+nav a{
+    color:rgb(255, 255, 255);
+    padding: 0px 20px ;
+    text-decoration: none;   
+    font-weight: bold; 
+    font-size: 14px;   
+}
+nav a:hover{
+    color:#000000
+}
+/* div general para centrar todo el contenido de los section */
+.div_centrado{
+    margin: 0% 18% 0% 20%;    
+}
+
+/* inicio style section 1 */
+.div_section1{
+    padding: 80px 0px 20px 0px;
+    display: block;
+    flex-wrap: wrap; 
+    background-image: url(../img/fondo_asesoria.jpg);    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.section1{
+    flex: 100%;    
+    padding: 5px;
+    background-color:transparent;        
+}
+
+.h1_form{
+    text-align: left;
+    color:#ffffff;    
+    padding: 20px 5%;
+    font-weight:bold;
+    font-size: 40px;    
+}
+.term{
+    font-size: 12px;
+    text-align: left;
+    padding: 10px 8%;
+}
+.form_asesoria{    
+   width: 90%;   
+   margin:auto;
+   padding: 0px 0px 2%;     
+   background-color:#fff;
+   border-radius: 10px;
+   text-align: center;     
+   }
+.nombre{
+    width: 84%;
+    height: 50px;
+    border:solid 1px #e1e1e9;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 70px 0px 10px;
+}
+select{
+    width: 84%;
+    height: 50px;
+    border:solid 1px #e1e1e9;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 10px;    
+}
+input{
+    width: 40%;
+    height: 50px;
+    border: solid 1px #e1e1e9;
+    border-radius: 5px;
+    margin: 10px 20px 10px;
+    font-size: 14px;   
+}
+.btn_asesoria{
+    width: 15%;
+    height: 50px;
+    margin: 10px;
+    margin-right: 70%;
+    background-color: #00367f;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;    
+}
+.btn_asesoria:hover{
+    background-color: rgb(88, 188, 255);
+}
+/* fin section1*/ 
+
+.section2{
+    background-color:transparent;
+    flex: 100%;  
+    padding: 5px;        
+    display: flex;
+} 
+.logos_contacto{
+    width: 34%;                  
+    background-color:transparent;    
+    text-align: center;  
+    display:block;   
+    margin: 2%;
+}
+.h1_escribenos{
+    text-align: center;
+    color:#6d6b6b; 
+    font-style:bold;   
+    padding: 1% 1%;   
+    font-size: 25px;
+}
+.logos_contacto p{
+    color:#6d6b6b;
+    font-style: bold;
+    font-size: 13px;
+}
+.logos_contacto a{
+    color: rgb(100, 181, 246);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* fin section2*/
+.div_section3{
+    display: block;
+    flex-wrap: wrap;    
+    background-image:url(../img/servicio.jpg);
+    background-color:  rgb(54, 54, 54);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.section3{
+    background-color: transparent;
+    flex: 100%;
+    padding: 0% 0% 0% 0%;    
+    display: flex;       
+}
+
+.div__form_servicio{
+    width: 100%;     
+    background-color:transparent;    
+    text-align: center;  
+    display: flex; 
+}
+
+.form_servicio{
+    width: 100%;     
+   padding: 10px 0px 0px 0px;   
+    background-color:transparent;        
+    text-align: center;   
+}
+.form_input{    
+        width: 40%;
+        height: 50px;
+        border: solid 1px #e1e1e9;
+        border-radius: 5px;
+        margin: 5px 8px 10px;
+        font-size: 14px;   
+    }
+    .nombre_servicio{
+        width: 84%;
+        height: 50px;
+        border:solid 1px #e1e1e9;
+        border-radius: 5px;
+        font-size: 14px;
+        margin: 20px 0px 10px;
+    }
+.btn_servicio{
+        width: 84%;
+        height: 50px;
+        margin: 0px;        
+        background-color: rgb(245, 176, 65);
+        color: #fff;
+        border-radius: 10px;
+        font-size: 14px;
+        font-weight: bold;    
+}
+.btn_servicio:hover{
+        background-color: rgb(36, 138, 206);
+    }
+.term_ser{
+    font-size: 12px;
+    text-align: left;
+    padding: 10px 8%;
+    color: #fff;
+}
+    .h2_servicio{
+        color: #ffffff;
+        text-align: left;        
+        margin:5% 0% 4% 10%; 
+    }
+.p_servicio{
+    font-size: 18px;
+    text-align: left;
+    margin:0% 25% 0% 10%;
+    line-height: 150%;
+    color: #ffffff;
+    
+}
+/* fin section 3 */
+
+/* section 4 */
+.div_centrado4{
+    margin: 0% 10% 0% 25%;    
+}
+.div_section4{
+    display: block;
+    flex-wrap: wrap;   
+}
+
+.datos_contacto{
+    width: 33%; 
+    height: 100%;          
+    background-color:transparent;    
+    text-align: left;  
+    display:block;   
+    margin: 0% 0% 3%;
+} 
+.datos_contacto a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer{
+    display: block;        
+    text-align: left;
+    color: #fff;
+    background-color: #000000;
+}
+
+@media screen and (max-width: 600px)
+{
+    /* menu */
+nav, .nav{
+    text-align: center;
+    padding: 15px 0% 3% 0%;
+    margin: auto;
+}
+.nav a{    
+    padding: 0% 4% 0% 0%;
+}
+/* section 1 */
+.form_asesoria{
+            width: 100%;
+} 
+    
+ input {
+      width: 84%;
+  } 
+  .form_input{
+      width: 84%;
+  }   
+
+.btn_asesoria{
+      width: 45%;
+      height: 50px;
+      margin-right: 40%;
+  }
+  /* div centrado general */ 
+  .div_centrado{
+    margin: 0% 0% 0% 0%;   
+}
+/* section 2 */
+.section2{
+    width: 100%;    
+    margin: auto;
+    flex-direction: column;    
+}
+.logos_contacto{
+    margin: auto;
+    width: 100%;
+    padding: 2% 0% 2% 0%;
+}
+/* section 3 */
+.div_section3{
+    height: 600px;
+}
+.section3{
+    width: 100%;
+    padding: 0%;
+    flex-direction: column;  
+}
+.form_servicio{
+    width: 100%;
+    padding: 0% 0% 0% 0%;
+}
+.h2_servicio, .p_servicio{
+    margin: 3% 0% 1% 0%;
+}
+.div__form_servicio{
+    width: 100%;   
+}
+/* section 4 */
+.datos_contacto{
+    margin: auto;
+    width: 100%;
+    padding: 0% 0% 0% 0%;
+    text-align: left;
+}
+.div_centrado4{
+    margin: 0% 0% 0% 0%;   
+}
+}

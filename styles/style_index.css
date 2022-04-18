@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 0px;
+    background-color: transparent;
+}
+.nav{
+    width: 100%;   
+    display: block;
+    flex-direction: row;
+    background-color: rgb(100, 181, 246);     
+    text-align: right; 
+    padding: 35px; 
+    position: fixed;           
+}
+nav {
+    display: block;
+    flex-direction: row;
+    margin: 0px 18% 0px 20%;  
+    text-align: right;   
+}
+nav a{
+    color:rgb(255, 255, 255);
+    padding: 0px 20px ;
+    text-decoration: none;   
+    font-weight: bold; 
+    font-size: 14px;   
+}
+nav a:hover{
+    color:#000000
+}
+/* div general para centrar todo el contenido de los section */
+.div_centrado{
+    margin: 0% 20% 0% 20%;    
+}
+/* inicio section 1 */
+.div_section1{
+    display: block;
+    height: 600px;
+    flex-wrap: wrap;    
+    background-image:url(../img/fondo_section1_index.jpg);
+    background-color:  rgb(221, 221, 221);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.section1{
+    background-color: transparent;
+    flex: 100%;
+    padding: 9% 0% 0% 0%;    
+    display: flex;       
+}
+
+.div__form_servicio{
+    width: 100%;     
+    background-color:transparent;    
+    text-align: center;  
+    display: flex; 
+}
+
+.form_servicio{
+    width: 100%;     
+    background-color:rgb(255, 255, 255,60%);        
+    text-align: center;   
+}
+.form_input{    
+        width: 40%;
+        height: 50px;
+        border: solid 1px #e1e1e9;
+        border-radius: 5px;
+        margin: 5px 8px 0px 5px;
+        font-size: 14px;   
+    }
+    .nombre_servicio{
+        width: 84%;
+        height: 50px;
+        border:solid 1px #e1e1e9;
+        border-radius: 5px;
+        font-size: 14px;
+        margin: 10px 0px 10px;
+    }
+    select{
+        width: 84%;
+        height: 50px;
+        border:solid 1px #e1e1e9;
+        border-radius: 5px;
+        font-size: 14px;
+        margin: 10px 0px 20px;
+    }
+.btn_servicio{
+        width: 84%;
+        height: 50px;
+        margin: 0px;        
+        background-color:#00367f;
+        color: #fff;
+        border-radius: 10px;
+        font-size: 14px;
+        font-weight: bold;    
+}
+.btn_servicio:hover{
+        background-color: rgb(36, 138, 206);
+    }
+.term_ser{
+    font-size: 12px;
+    text-align: left;
+    padding: 10px 8% 10%;
+    color: rgb(133, 128, 128);
+}
+    .h2_asesoria{
+        color: #00367f;
+        text-align: left;        
+        margin:5% 0% 4% 8%; 
+        font-size: 20px;        
+    }
+.h2_sec1{
+    font-weight: bold;
+    margin: 2% 8% 0% 10%;
+    font-size: 35px;
+    color: #00367f;
+}
+h3{
+    color: #20a9e1;    
+    margin: 8% 0% 0% 10%;
+}
+.p_sec1{
+    font-size: 18px;
+    text-align: left;
+    padding:0% 10%;
+    line-height: 150%;
+    color: #252424;
+    
+}
+
+@media screen and (max-width: 600px)
+{
+    /* menu */
+nav, .nav{
+    text-align: center;
+    padding: 15px 0% 3% 0%;
+    margin: auto;
+}
+.nav a{    
+    padding: 0% 4% 0% 0%;
+}
+.div_centrado{
+    margin: 0% 0% 0% 0%;    
+}
+/* section 3 */
+.div_section1{
+    height: auto;
+}
+.section1{
+    width: 100%;
+    padding: 0%;
+    flex-direction: column;  
+}
+.form_servicio{
+    width: 100%;
+    padding: 0% 0% 0% 0%;
+}
+.h2_servicio, .p_servicio{
+    margin: 3% 0% 1% 0%;
+}
+.div__form_servicio{
+    width: 100%;   
+}
+}
