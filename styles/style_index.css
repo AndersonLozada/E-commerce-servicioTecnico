@@ -15,7 +15,7 @@ header{
     width: 100%;   
     display: block;
     flex-direction: row;
-    background-color: rgb(100, 181, 246);     
+    background-color: #286da5;     
     text-align: right; 
     padding: 35px; 
     position: fixed;           
@@ -31,7 +31,15 @@ nav a{
     padding: 0px 20px ;
     text-decoration: none;   
     font-weight: bold; 
-    font-size: 14px;   
+    font-size: 16px;   
+}
+.img_logo{
+    width: 10%;
+    height: 80%;
+    padding: 0% 0% 0% 0%;
+    margin: -2% 0% -2% 25%;
+    position: left;
+    display: block;
 }
 nav a:hover{
     color:#000000
@@ -55,7 +63,7 @@ nav a:hover{
 .section1{
     background-color: transparent;
     flex: 100%;
-    padding: 9% 0% 0% 0%;    
+    padding: 13% 0% 0% 0%;    
     display: flex;       
 }
 
@@ -108,10 +116,27 @@ nav a:hover{
 .btn_servicio:hover{
         background-color: rgb(36, 138, 206);
     }
+
+    .btn_contacto{
+        width: 25%;
+        height: 15%;
+        margin: 0px 0px 0% 10%;  
+        padding: 2px 2px 2px 2px;      
+        background-color:#d4bd58;
+        color: #fff;
+        border-radius: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;    
+}
+
+.btn_contacto:hover{
+        background-color: rgb(157, 203, 235);
+    }
 .term_ser{
     font-size: 12px;
     text-align: left;
-    padding: 10px 8% 10%;
+    padding: 10px 8% 5%;
     color: rgb(133, 128, 128);
 }
     .h2_asesoria{
@@ -128,7 +153,7 @@ nav a:hover{
 }
 h3{
     color: #20a9e1;    
-    margin: 8% 0% 0% 10%;
+    margin: 7% 0% 0% 10%;
 }
 .p_sec1{
     font-size: 18px;
@@ -138,9 +163,86 @@ h3{
     color: #252424;
     
 }
+/* fin section 1 */
+/*section 2 */
+.div_section2{
+    display: block;
+    height: 450px;
+    flex-wrap: wrap; 
+    background-color: transparent;  
+}
+.section2{
+    background-color: transparent;
+    flex: 100%;
+    padding: 2% 0% 5% 0%;    
+    display: flex;       
+}
 
+img{
+    width: 100%;
+    height: 100%;
+}
+.img:hover {filter: opacity(.5);
+}
+table td {
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+}
+.h2_sec2{
+    font-weight: bold;
+    margin: 0% 0% 0% 0%;
+    font-size: 30px;
+    color: #00367f;
+}
+/* fin section 2 */
+.div_section3{
+    display: block;
+    flex-wrap: wrap;    
+    background-image:url(../img/servicio.jpg);
+    background-color:  rgb(54, 54, 54);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    color: #fff;
+}
+/* section 4 */
+
+.div_section4{
+    display: block;
+    flex-wrap: wrap;  
+    background-color: #000000; 
+}
+.div_centrado4{
+    margin: 0% 10% 0% 25%;       
+}
+.datos_contacto{
+    width: 33%; 
+    height: 100%;          
+    background-color:transparent;    
+    text-align: left;  
+    display:block;   
+    margin: 0% 0% 3%;
+    color: #fff;
+} 
+.datos_contacto a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 @media screen and (max-width: 600px)
 {
+    .img_logo{
+        visibility: hidden;
+    }
+    iframe{
+        width: auto;
+        height: auto;
+    }
     /* menu */
 nav, .nav{
     text-align: center;
@@ -153,9 +255,13 @@ nav, .nav{
 .div_centrado{
     margin: 0% 0% 0% 0%;    
 }
-/* section 3 */
+/* section 1 */
 .div_section1{
     height: auto;
+}
+h3{
+    color: #20a9e1;    
+    margin: 13% 0% 0% 10%;
 }
 .section1{
     width: 100%;
@@ -171,5 +277,40 @@ nav, .nav{
 }
 .div__form_servicio{
     width: 100%;   
+}
+/* section 2 */
+.div_section2{
+    height: auto;
+}
+.section2{
+    width: 100%;
+    padding: 0%;
+    flex-direction: column;  
+}
+table td{
+    flex-direction: column;
+    display: flex;
+}
+/* section 3 */
+.section3{
+    width: 100%;    
+    margin: auto;
+    flex-direction: column;    
+}
+.logos_contacto{
+    margin: auto;
+    width: 100%;
+    padding: 2% 0% 2% 0%;
+}
+/* section 4 */
+.datos_contacto{
+    margin: auto;
+    width: 100%;
+    padding: 0% 0% 0% 0%;
+    text-align: left;
+}
+.div_centrado4{
+    margin: 0% 0% 0% 0%;   
+
 }
 }
